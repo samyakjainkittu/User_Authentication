@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+}
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: url("https://www.codingnepalweb.com/demos/create-glassmorphism-login-form-html-css/hero-bg.jpg"), #000; */
+  /* background-color: #4158D0; */
+  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+
+  background: url("./signup.jpg");
+  opacity: .9;
+  z-index: -1;
+
+
+
+  background-position: center;
+  background-size: cover;
+}
+.registationform {
+  width: 700px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
+
+  
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.username{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 11px 0px;
+    margin-top: 20px;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 11px 0px;
+}
+.passward{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 11px 0px;
+    margin-bottom: 30px;
+}
+
+input{
+    font-size: 1rem;
+    padding: 8px;
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid rgb(163 152 152);
+    border-radius: 12px;
+    width: 45%;
+    height: 45px;
+    text-align: center;
+    
+}
+::placeholder{
+    color: #fff;
+}
+
+
+
+.registationform a {
+  color: #3a41c4;
+  text-decoration: none;
+}
+.registationform a:hover {
+  text-decoration: underline;
+} 
+button {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+button:hover {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+.Login {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}

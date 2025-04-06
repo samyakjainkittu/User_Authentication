@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="registationform ">
+        <form action="/" method="post" >
+            <h2>Sign Up</h2>
+
+            <div class="username">
+                <input type="text" placeholder=" Enter Your First Name" name ="firstname" class="name" required>
+                <input type="text" placeholder=" Enter Your Last Name" name ="lastname" class="name">
+            </div>
+
+            <div class="contact">
+                <input type="email" placeholder=" Enter Your Email" name ="email" class="email" required>
+                <input type="tel" placeholder=" Enter Your Mobile No" name ="mobno" class="mobno" required>
+            </div>
+
+            <div class="passward">
+                <input type="password" placeholder=" Enter Passward" name ="passward" class="name" required>
+                <input type="password" placeholder=" Enter Confirm Passward" name ="confpassward" class="name" required>
+            </div>
+            
+                
+                
+            
+            <button type="submit">Register</button>
+            <div class="Login">
+                <p>Have an account? <a href="/login">Log In</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
